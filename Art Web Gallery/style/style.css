@@ -1,0 +1,31 @@
+.products{
+     display:flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin: auto;
+    width:900px;
+    height: 100%;
+
+}
+.img{
+    display: inline-block;
+    margin: 40px 0 20px;
+    width: 250px;
+    height: 280px;
+    border: 1px solid #34d8eb;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    background: contain;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+label{
+    text-align: center;
+    color: #34d8eb;
+    font-size: 18px;
+}
